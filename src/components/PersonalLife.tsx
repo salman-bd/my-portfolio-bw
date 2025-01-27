@@ -107,8 +107,8 @@ export default function Work() {
       <section className="text-center space-y-6">
         <h2 className="text-3xl font-semibold text-gray-800">Let&apos;s Build Something Amazing</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          I'm always excited to take on new challenges and create innovative solutions. If you have a project in mind,
-          let's collaborate and bring your ideas to life!
+          I&apos;m always excited to take on new challenges and create innovative solutions. If you have a project in mind,
+          let&apos;s collaborate and bring your ideas to life!
         </p>
         <Link href="/contact">
           <Button className="bg-black dark:bg-white text-white hover:bg-gray-800 dark:hover:bg-gray-200">

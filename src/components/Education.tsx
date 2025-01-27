@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, School, Award, Calendar, BookOpen, TrendingUp, Briefcase } from "lucide-react"
+import { GraduationCap, School, Award, Calendar, BookOpen, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
