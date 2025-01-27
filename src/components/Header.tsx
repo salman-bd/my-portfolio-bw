@@ -63,7 +63,7 @@ export function Header() {
 
   return (
     <header className="bg-white dark:bg-black shadow-lg sticky top-0 z-50">
-      <nav className="container mx-auto px-6 py-3">
+      <nav className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image

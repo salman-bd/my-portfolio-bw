@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="bg-black dark:bg-gray-100 text-white dark:text-black py-8">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row justify-between items-center">
+      <div className="container flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="mb-4 md:mb-0">
           <p className="text-lg font-semibold">Md. Abu Salman</p>
           <p className="text-sm">Software Engineer & ICT Teacher</p>

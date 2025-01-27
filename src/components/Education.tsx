@@ -1,16 +1,15 @@
 "use client"
 
-import { GraduationCap, School, Award, Calendar, BookOpen, TrendingUp } from "lucide-react"
+import { GraduationCap, School, Calendar, BookOpen, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
 
 export default function Education() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-12">
-      <div className="text-center space-y-4">
+      <div className="text-center space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white">Educational Journey</h1>
-        <p className="text-xl text-gray-600 mx-auto">
+        <p className="text-xl text-gray-600 text-justify mx-auto">
           My academic path in Business Administration, with a focus on Marketing, has equipped me with a strong
           foundation in business strategies and market dynamics.
         </p>
@@ -21,7 +20,7 @@ export default function Education() {
           <CardHeader>
             <CardTitle className="flex items-center space-x-3 text-2xl text-gray-800 dark:text-gray-200">
               <GraduationCap className="w-8 h-8 text-black dark:text-white" />
-              <span>SUST</span>
+              <span className="text-black">SUST</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -59,7 +58,7 @@ export default function Education() {
           <CardHeader>
             <CardTitle className="flex items-center space-x-3 text-2xl text-gray-800 dark:text-gray-200">
               <GraduationCap className="w-8 h-8 text-black dark:text-white" />
-              <span>SUST</span>
+              <span className="text-black">SUST</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -97,7 +96,7 @@ export default function Education() {
           <CardHeader>
             <CardTitle className="flex items-center space-x-3 text-2xl text-gray-800 dark:text-gray-200">
               <School className="w-8 h-8 text-black dark:text-white" />
-              <span>Goainghat College</span>
+              <span className="text-black">Goainghat College</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -136,11 +135,11 @@ export default function Education() {
         </Card>
       </div>
 
-      <Card className="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 border-gray-300 dark:border-gray-700">
+      {/* <Card className="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 border-gray-300 dark:border-gray-700">
         <CardHeader>
           <CardTitle className="flex items-center space-x-3 text-2xl text-gray-800 dark:text-gray-200">
             <Award className="w-8 h-8 text-black dark:text-white" />
-            <span>Skills</span>
+            <span className="text-black">Skills</span>
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
@@ -178,7 +177,7 @@ export default function Education() {
             </div>
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </section>
   )
 }

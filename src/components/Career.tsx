@@ -6,44 +6,44 @@ export default function Career() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-12">
       <header className="text-center space-y-4">
         <h1 className="text-5xl font-bold text-black dark:text-white">Career Journey</h1>
-        <p className="text-xl text-gray-600">
+        <p className="text-xl text-gray-600 text-justify">
           My career path combines a passion for software engineering with a commitment to education, allowing me to
           contribute to technological advancements while shaping young minds.
         </p>
       </header>
 
       <section className="space-y-8">
-        <h2 className="text-3xl font-semibold text-gray-800 text-center border-b border-indigo-600 pb-2">
-          Technical Expertise
+        <h2 className="text-3xl font-semibold text-black text-center">
+            Technical Expertise <hr />
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <SkillCard
-            icon={<Globe className="w-8 h-8 text-gray-700 dark:text-gray-300" />}
+            icon={<Globe className="w-8 h-8 text-black dark:text-gray-300" />}
             title="Frontend Development"
             skills={["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Next.js", "Tailwind CSS", "TypeScript"]}
           />
           <SkillCard
-            icon={<Server className="w-8 h-8 text-gray-600 dark:text-gray-400" />}
+            icon={<Server className="w-8 h-8 text-black dark:text-gray-400" />}
             title="Backend Development"
             skills={["Node.js", "Express.js", "Next.js API Routes", "RESTful APIs"]}
           />
           <SkillCard
-            icon={<Database className="w-8 h-8 text-gray-500 dark:text-gray-500" />}
+            icon={<Database className="w-8 h-8 text-black dark:text-gray-500" />}
             title="Databases"
             skills={["MongoDB", "PostgreSQL", "MySQL", "Prisma ORM"]}
           />
           <SkillCard
-            icon={<Cpu className="w-8 h-8 text-gray-400 dark:text-gray-600" />}
+            icon={<Cpu className="w-8 h-8 text-black dark:text-gray-600" />}
             title="DevOps & Cloud"
             skills={["Git", "Docker", "CI/CD", "AWS", "Vercel", "Netlify"]}
           />
           <SkillCard
-            icon={<Tool className="w-8 h-8 text-gray-300 dark:text-gray-700" />}
+            icon={<Tool className="w-8 h-8 text-black dark:text-gray-700" />}
             title="Tools & Methodologies"
             skills={["Agile", "Scrum", "Jira", "Figma", "Jest", "Cypress"]}
           />
           <SkillCard
-            icon={<Code className="w-8 h-8 text-gray-700 dark:text-gray-300" />}
+            icon={<Code className="w-8 h-8 black dark:text-gray-300" />}
             title="Programming Languages"
             skills={["JavaScript", "TypeScript", "Python", "C"]}
           />
@@ -51,8 +51,9 @@ export default function Career() {
       </section>
 
       <section className="space-y-8">
-        <h2 className="text-3xl font-semibold text-gray-800 text-center border-b border-indigo-600 pb-2">
-          Professional Experience
+        <h2 className="text-3xl font-semibold text-black text-center pt-6 ">
+        Professional Experience<hr />
+          
         </h2>
         <div className="space-y-6">
           <ExperienceCard
@@ -67,7 +68,7 @@ export default function Career() {
             ]}
           />
           <ExperienceCard
-            icon={<BookOpen className="w-8 h-8 text-gray-600 dark:text-gray-400" />}
+            icon={<BookOpen className="w-8 h-8 text-black dark:text-gray-400" />}
             title="ICT Teacher"
             responsibilities={[
               "Teach Information and Communication Technology (ICT) to students",
@@ -80,7 +81,7 @@ export default function Career() {
       </section>
 
       <footer className="text-center">
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        <p className="text-lg text-gray-600 text-justify max-w-3xl mx-auto">
           By balancing roles in software engineering and education, I bring real-world experience into the classroom
           while staying connected to the evolving needs of the technology industry. This unique perspective allows me to
           prepare the next generation of developers with cutting-edge skills and practical knowledge.
