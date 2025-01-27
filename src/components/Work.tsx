@@ -1,4 +1,4 @@
-import { Globe, ShoppingCart, Newspaper, PenTool, Book, Briefcase, Code, Rocket, ExternalLink } from "lucide-react"
+import { ShoppingCart, Newspaper, PenTool, Book, Rocket, ExternalLink } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -7,7 +7,7 @@ export default function Work() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16">
       <header className="text-center space-y-4">
-        <h1 className="text-5xl font-bold text-black dark:text-white pb-4">Work & Projects</h1>
+        <h1 className="text-5xl font-bold text-black  text-justify dark:text-white pb-4">Work & Projects</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Explore a showcase of my key projects, demonstrating expertise in web development, e-commerce solutions,
           content management systems, and educational technology. Each project reflects my commitment to creating
@@ -53,7 +53,7 @@ export default function Work() {
         </div>
       </section>
 
-      <section className="space-y-8">
+      {/* <section className="space-y-8">
         <h2 className="text-3xl font-semibold text-gray-800 text-center">Additional Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
@@ -88,12 +88,12 @@ export default function Work() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
-      <section className="bg-gradient-to-r from-gray-200 to-gray-400 dark:from-gray-800 dark:to-gray-600 rounded-xl p-8 shadow-lg text-white">
+      <section className="bg-gradient-to-r from-gray-900 to-black dark:from-gray-800 dark:to-gray-600 rounded-xl p-8 shadow-lg text-white">
         <h2 className="text-3xl font-semibold mb-4 text-center">Technical Expertise</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {["JavaScript", "React", "Node.js", "TypeScript", "Next.js", "GraphQL", "AWS", "Docker"].map((skill) => (
+          {["JavaScript", "React", "Node.js", "TypeScript", "Next.js", "GraphQL", "AWS", "MongoDB"].map((skill) => (
             <div
               key={skill}
               className="bg-white bg-opacity-20 rounded-lg p-4 text-center backdrop-filter backdrop-blur-lg"
@@ -107,8 +107,8 @@ export default function Work() {
       <section className="text-center space-y-6">
         <h2 className="text-3xl font-semibold text-gray-800">Let&apos;s Build Something Amazing</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          I'm always excited to take on new challenges and create innovative solutions. If you have a project in mind,
-          let's collaborate and bring your ideas to life!
+          I&apos;m always excited to take on new challenges and create innovative solutions. If you have a project in mind,
+          let&apos;s collaborate and bring your ideas to life!
         </p>
         <Link href="/contact">
           <Button className="bg-black dark:bg-white text-white hover:bg-gray-800 dark:hover:bg-gray-200">

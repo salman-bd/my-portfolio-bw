@@ -13,21 +13,21 @@ import Image from "next/image"
 export default function HomePage() {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12">
         <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/hero-background.jpg"
+              src="/my_image.jpg"
               alt="Hero background"
               layout="fill"
               objectFit="cover"
-              className="opacity-30 grayscale"
+              className="opacity-60 grayscale"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white dark:to-black z-10"></div>
           <div className="relative z-20 text-center space-y-8 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-5xl md:text-7xl font-bold text-black dark:text-white">Md. Abu Salman</h1>
-            <p className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-light">
+            <p className="text-2xl md:text-3xl text-gray-900 dark:text-gray-300 font-light">
               Software Engineer & ICT Teacher
             </p>
             <div className="flex flex-wrap justify-center gap-3">
@@ -62,7 +62,7 @@ export default function HomePage() {
               </Button>
             </div>
           </div>
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+          <div className="absolute bottom-10 left-1/1.8 transform -translate-x-1/2 z-20 animate-bounce">
             <ChevronDown className="w-10 h-10 text-black dark:text-white" />
           </div>
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white dark:from-black to-transparent z-20"></div>
@@ -137,7 +137,7 @@ export default function HomePage() {
                   title: "Frontend",
                   skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Next.js", "Tailwind CSS", "TypeScript"],
                 },
-                { title: "Backend", skills: ["Node.js", "Express.js", "Next.js API Routes", "RESTful APIs"] },
+                { title: "Backend", skills: ["Node.js", "Express.js", "Next.js API Routes", "Django"] },
                 { title: "Databases", skills: ["MongoDB", "PostgreSQL", "MySQL", "Prisma ORM"] },
               ].map((category, index) => (
                 <div key={index} className="space-y-2">

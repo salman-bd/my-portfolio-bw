@@ -67,7 +67,7 @@ export function Header() {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/my_image.jpg?height=40&width=40"
               alt="Salman's photo"
               width={40}
               height={40}

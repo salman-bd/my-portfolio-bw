@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github, MapPin, Clock } from "lucide-react"
+import { Mail, Phone, Linkedin, Github, MapPin, Clock, Rocket, Handshake, GraduationCap, Lightbulb, PenBoxIcon } from "lucide-react"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ContactForm } from "@/components/ContactForm"
@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16">
       <header className="text-center space-y-4">
         <h1 className="text-5xl font-bold text-black dark:text-white">Get in Touch</h1>
-        <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-700 text-justify dark:text-gray-300 max-w-3xl mx-auto">
           I&apos;m always excited to connect with fellow developers, potential clients, and collaborators. Whether you
           have a project in mind, a question about my work, or just want to say hello, I&apos;d love to hear from you!
         </p>
@@ -66,11 +66,21 @@ export default function Contact() {
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                <li>🚀 Exciting web development projects</li>
-                <li>🤝 Freelance opportunities</li>
-                <li>🎓 Mentorship and teaching</li>
-                <li>💡 Tech talks and workshops</li>
-                <li>✍️ Technical writing and blogging</li>
+                <div className="">  
+                  <li className="flex flex-row gap-2"><Rocket /> Exciting web development projects</li>  
+                </div>
+                <div className="flex flex-row gap-2 justify-between">  
+                  <li className="flex flex-row gap-2"><Handshake /> Freelance opportunities</li>  
+                </div>
+                <div className="flex flex-row gap-2 justify-between">  
+                  <li className="flex flex-row gap-2"><GraduationCap /> Mentorship and teaching</li>  
+                </div>
+                <div className="flex flex-row gap-2 justify-between">  
+                  <li className="flex flex-row gap-2"><Lightbulb /> Tech talks and workshops</li>   
+                </div>
+                <div className="flex flex-row gap-2 justify-between">  
+                    <li className="flex flex-row gap-2"><PenBoxIcon /> Technical writing and blogging</li>  
+                </div>
               </ul>
             </CardContent>
           </Card>
@@ -95,7 +105,7 @@ export default function Contact() {
         <h2 className="text-3xl font-semibold text-black dark:text-white">
           Let&apos;s Create Something Amazing Together
         </h2>
-        <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-700 text-justify dark:text-gray-300 max-w-3xl mx-auto">
           Whether you have a specific project in mind or just want to explore possibilities, I&apos;m here to help turn
           your ideas into reality. Don&apos;t hesitate to reach out!
         </p>
