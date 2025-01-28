@@ -76,7 +76,7 @@ export default function HomePage() {
                 Welcome to My Portfolio
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-4 text-justify">
+            <CardContent className="space-y-4 text-left">
               <p className="text-xl text-gray-800 dark:text-gray-200">
                 Hello! I am a passionate software engineer with years of experience in full-stack development,
                 specializing in creating scalable web applications. Additionally, I teach ICT, blending industry

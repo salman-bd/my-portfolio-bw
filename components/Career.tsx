@@ -6,7 +6,7 @@ export default function Career() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-12">
       <header className="text-center space-y-4">
         <h1 className="text-5xl font-bold text-black dark:text-white">Career Journey</h1>
-        <p className="text-xl text-gray-600 text-left max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 text-justify">
           My career path combines a passion for software engineering with a commitment to education, allowing me to
           contribute to technological advancements while shaping young minds.
         </p>
@@ -81,7 +81,7 @@ export default function Career() {
       </section>
 
       <footer className="text-center">
-        <p className="text-lg text-gray-600 text-left max-w-3xl mx-auto">
+        <p className="text-lg text-gray-600 text-justify max-w-3xl mx-auto">
           By balancing roles in software engineering and education, I bring real-world experience into the classroom
           while staying connected to the evolving needs of the technology industry. This unique perspective allows me to
           prepare the next generation of developers with cutting-edge skills and practical knowledge.

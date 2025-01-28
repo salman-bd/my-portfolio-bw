@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github, MapPin, Rocket, Handshake, GraduationCap, Lightbulb, PenBoxIcon } from "lucide-react"
+import { Mail, Phone, Linkedin, Github, MapPin, Clock, Rocket, Handshake, GraduationCap, Lightbulb, PenBoxIcon } from "lucide-react"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ContactForm } from "@/components/ContactForm"
@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16">
       <header className="text-center space-y-4">
         <h1 className="text-5xl font-bold text-black dark:text-white">Get in Touch</h1>
-        <p className="text-xl text-gray-700 text-left dark:text-gray-300 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-700 text-justify dark:text-gray-300 max-w-3xl mx-auto">
           I&apos;m always excited to connect with fellow developers, potential clients, and collaborators. Whether you
           have a project in mind, a question about my work, or just want to say hello, I&apos;d love to hear from you!
         </p>
@@ -27,27 +27,31 @@ export default function Contact() {
               <ul className="space-y-4">
                 <ContactItem
                   icon={<Mail className="w-5 h-5 text-black dark:text-white" />}
-                  text="abusalman.sust@gmail.com"
-                  href="mailto:abusalman.sust@gmail.com"
+                  text="your.email@example.com"
+                  href="mailto:your.email@example.com"
                 />
                 <ContactItem
                   icon={<Phone className="w-5 h-5 text-black dark:text-white" />}
-                  text="(+88 01988188722"
-                  href="tel:+8801988188722"
+                  text="(123) 456-7890"
+                  href="tel:+11234567890"
                 />
                 <ContactItem
                   icon={<Linkedin className="w-5 h-5 text-black dark:text-white" />}
                   text="linkedin.com/in/yourprofile"
-                  href="https://linkedin.com/in/salmansust"
+                  href="https://linkedin.com/in/yourprofile"
                 />
                 <ContactItem
                   icon={<Github className="w-5 h-5 text-black dark:text-white" />}
                   text="github.com/yourusername"
-                  href="https://github.com/salman-bd"
+                  href="https://github.com/yourusername"
                 />
                 <ContactItem
                   icon={<MapPin className="w-5 h-5 text-black dark:text-white" />}
-                  text="Block-H, Shahjalal Upashahar, Sylhet"
+                  text="New York City, NY, USA"
+                />
+                <ContactItem
+                  icon={<Clock className="w-5 h-5 text-black dark:text-white" />}
+                  text="Available: Mon-Fri, 9AM-5PM EST"
                 />
               </ul>
             </CardContent>
@@ -101,7 +105,7 @@ export default function Contact() {
         <h2 className="text-3xl font-semibold text-black dark:text-white">
           Let&apos;s Create Something Amazing Together
         </h2>
-        <p className="text-xl text-gray-700 text-left dark:text-gray-300 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-700 text-justify dark:text-gray-300 max-w-3xl mx-auto">
           Whether you have a specific project in mind or just want to explore possibilities, I&apos;m here to help turn
           your ideas into reality. Don&apos;t hesitate to reach out!
         </p>

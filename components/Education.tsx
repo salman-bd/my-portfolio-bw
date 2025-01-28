@@ -9,7 +9,7 @@ export default function Education() {
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-12">
       <div className="text-center space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white">Educational Journey</h1>
-        <p className="text-xl text-gray-600 text-left max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 text-justify mx-auto">
           My academic path in Business Administration, with a focus on Marketing, has equipped me with a strong
           foundation in business strategies and market dynamics.
         </p>

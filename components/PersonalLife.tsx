@@ -18,7 +18,7 @@ export default function PersonalLife() {
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="text-lg text-gray-600 text-left leading-relaxed">
+          <p className="text-lg text-gray-600 text-justify leading-relaxed">
             I grew up in Sylhet, Bangladesh, a beautiful city located in the north-eastern part of the country. Sylhet
             is known for its lush green landscapes, tea gardens, and natural beauty, which have greatly influenced my
             appreciation for nature and my home country.
@@ -26,7 +26,7 @@ export default function PersonalLife() {
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
               <Image
-                src="/Pang_Thu_Mai_Desktop.jpg?height=300&width=400"
+                src="/placeholder.svg?height=300&width=400"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-md"
@@ -36,7 +36,7 @@ export default function PersonalLife() {
             </div>
             <div className="flex flex-col gap-4">
               <Image
-                src="/Tea_Garden_Moulvibazar_Desktop.jpg?height=300&width=400"
+                src="/placeholder.svg?height=300&width=400"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-md"

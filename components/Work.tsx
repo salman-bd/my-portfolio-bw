@@ -8,7 +8,7 @@ export default function Work() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16">
       <header className="text-center space-y-4">
         <h1 className="text-5xl font-bold text-ed-500  dark:text-white pb-4">Work & Projects</h1>
-        <p className="text-xl text-gray-600 text-left max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 text-justify max-w-3xl mx-auto">
           Explore a showcase of my key projects, demonstrating expertise in web development, e-commerce solutions,
           content management systems, and educational technology. Each project reflects my commitment to creating
           impactful, user-centric digital experiences.
@@ -106,12 +106,12 @@ export default function Work() {
 
       <section className="text-center space-y-6">
         <h2 className="text-3xl font-semibold text-gray-800">Let&apos;s Build Something Amazing</h2>
-        <p className="text-xl text-gray-600 text-left max-w-2xl mx-auto">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           I&apos;m always excited to take on new challenges and create innovative solutions. If you have a project in mind,
           let&apos;s collaborate and bring your ideas to life!
         </p>
         <Link href="/contact">
-          <Button className="bg-black dark:bg-white text-white hover:bg-gray-800 dark:hover:bg-gray-200 mt-4">
+          <Button className="bg-black dark:bg-white text-white hover:bg-gray-800 dark:hover:bg-gray-200">
             <Rocket className="w-5 h-5 mr-2" />
             Start a Project
           </Button>
